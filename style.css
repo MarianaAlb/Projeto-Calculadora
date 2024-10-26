@@ -1,0 +1,39 @@
+body {
+    background-color: #B7E0FF;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+input {
+    width: 91%;
+    padding: 10px;
+    font-size: 24px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #FFF5CD;
+}
+.calculadora {
+    background-color: #E78F81;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+}
+button {
+    padding: 15px;
+    font-size: 18px;
+    margin: 5px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 60px; /* Define uma largura fixa para os botões */
+    background-color: #FFCFB3;
+}
+.fileira {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
